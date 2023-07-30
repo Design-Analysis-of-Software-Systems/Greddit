@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .ola {
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #24252a;
+  }
+  
+  .logo {
+    font-size: 400%;
+    position:static;
+    background:linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+  }
+  
+  .nav__links a,
+  .cta{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    width:max-content;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .nav__links li {
+    padding-top: 30px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Bungee', cursive;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  
+  

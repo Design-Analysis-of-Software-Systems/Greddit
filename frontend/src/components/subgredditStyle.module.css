@@ -1,0 +1,23 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchContainer input[type="text"] {
+    right: 40px;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.searchContainer button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 2px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
